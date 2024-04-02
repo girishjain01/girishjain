@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="container mx-auto">
       <p className="text-center text-4xl">
-        मंत्रः दिव्य-लोक की कुंजी (पंच-नमोकार-सूत्र)
+        मंत्रः दिव्य-लोक की कुंजी (पंच-नमोकार-सूत्र)Girish
       </p>
 
       <div className="flex flex-col lg:flex-row justify-evenly items-center ">
