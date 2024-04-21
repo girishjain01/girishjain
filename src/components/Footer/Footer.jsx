@@ -5,11 +5,7 @@ import ItemsContainer from "./itemsContainer";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-<<<<<<< HEAD
       {/* <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
-=======
-      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
->>>>>>> c60fca01c9bc1ff1078bb5b84581ee8c9ec7da6d
         <h1
           className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
@@ -31,11 +27,7 @@ const Footer = () => {
             Request Code
           </button>
         </div>
-<<<<<<< HEAD
       </div> */}
-=======
-      </div>
->>>>>>> c60fca01c9bc1ff1078bb5b84581ee8c9ec7da6d
       <ItemsContainer />
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "./Navbar";
 import { routes } from "../../constant";
 import Drawer from "./Drawer";

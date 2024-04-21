@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Home() {
   const images = [
-    "carsousel_img/mahaveer.jpg",
+    "img/mahaveer_big.jpg",
     "img/oshobig.jpg",
     "mahaveer_img/skywaterboat.jpg",
   ];
@@ -17,23 +17,29 @@ function Home() {
   }, []);
 
   return (
-    <div className="container mx-auto">
-      <p className="text-center text-4xl">
-        मंत्रः दिव्य-लोक की कुंजी (पंच-नमोकार-सूत्र)Girish
-      </p>
+    <div className="container pt-[50px] mx-auto ">
+      <p className="text-center text-4xl m-3 text-red-500 font-bold">
+  मंत्रः दिव्य-लोक की कुंजी (पंच-नमोकार-सूत्र)
+</p>
 
-      <div className="flex flex-col lg:flex-row justify-evenly items-center ">
-        <div className="w-full lg:w-4/12">
-          <div className="text-center">
-            <img
-              src={images[currentImage]}
-              className="max-w-full h-auto"
-              alt="Carousel"
-            />
-          </div>
+<div className="flex flex-col lg:flex-row md:flex justify-center items-center text-center">
+  <div className="w-full lg:w-4/12 md:w-6/12 flex justify-center">
+      
+  <div>
+  <img
+    src={images[currentImage]}
+    style={{
+      borderRadius: '24px', // Tailwind's 'rounded-3xl' equivalent if you want to keep everything inline
+      width: window.innerWidth >= 1024 ? '400px' : (window.innerWidth >= 768 ? '300px' : '200px'),
+      height: window.innerWidth >= 1024 ? '400px' : (window.innerWidth >= 768 ? '300px' : '200px')
+    }}
+    alt="Carousel"
+  />
+</div>
+
         </div>
-        <div className="text-3xl text-center font-extrabold leading-relaxed tracking-widest">
-          <p className="text-3xl text-center font-extrabold leading-relaxed tracking-widest">
+        <div className="text-3xl text-center font-extrabold leading-relaxed tracking-widest m-2" >
+          <p >
             नमो अरिहंताणं।
             <br />
             नमो सिद्धाणं।

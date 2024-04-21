@@ -3,14 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
---bs-dark-color: #1a1d20;
---bs-dark-primary: #1c1c1c;
---bs-main-color:#fff;
---bs-primary-color:#c6c6c6;
---bs-secondary-color:#29a9fd;
---bs-supporting-color:#c850c0;
-}
+
 /* Mukta */
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap');
 
@@ -19,78 +12,9 @@
 
 body {
   font-family: 'Mukta', sans-serif 'Poppins', sans-serif; /* or 'Poppins', sans-serif; */
-}
-p {
-margin: 10px;
-font-weight: 500;
-font-size: 1.1rem;
-color: black;
-letter-spacing: 0.07rem;
-line-height: 1.75rem;
-font-synthesis: none;
-text-rendering: optimizeLegibility;
+  /* padding-top: 70px;  */
 }
 
-
-p:first-line {
-color: red;
-font-weight: bold;
-}
-.highlight-words {
-font-size: 1.2rem;
-line-height: 1.5;
-color: #333; /* Set your desired text color */
-}
-
-.highlight {
-background-color: yellow; /* Set your desired highlight color */
-font-weight: bold;
-}
-
-/* Larger font size for large screens (desktops) */
-@media (min-width: 1200px) {
-p {
-  font-size: 1.1rem;
-}
-}
-
-/* Adjusted font size for tablets */
-@media (max-width: 1199px) and (min-width: 768px) {
-p {
-  font-size: 1.2rem;
-}
-}
-
-/* Smaller font size for mobile devices */
-@media (max-width: 767px) {
-p {
-  font-size: 1rem;
-}
-}
-
-
-@media  only screen and (max-width:768px) {
-  #searchform{
-      margin-bottom: 30px;
-      margin-top: 20px;
-  }
-  
-}
-@media  only screen and (max-width:500px) {
-  img {
-     
-      width: 300px;
-  }
-  .carousel-item img{
-    height: 25vh;
-  }
-  
-}
-.carousel-item img{
-  width: 100%;
-  height: 50vh;
-  border-radius: 1rem;
-}
 
 
 

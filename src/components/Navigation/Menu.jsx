@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 const Menu = ({ route }) => {
@@ -53,7 +52,8 @@ const MenuButton = styled.div`
 
 const SubRoute = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: yellow;
+  font-size:bold;
   padding: 1rem;
   border-radius: 0.5rem;
   transition: 0.3s ease-in;
